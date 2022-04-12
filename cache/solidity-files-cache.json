@@ -1,0 +1,57 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "E:\\project\\Fishking-contract\\contracts\\Fishking.sol": {
+      "lastModificationDate": 1649753051277,
+      "contentHash": "b4c9149c1366bc55c60e53824da2f5cf",
+      "sourceName": "contracts/Fishking.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Context",
+        "ERC20",
+        "Fishking",
+        "IERC20",
+        "IERC20Metadata",
+        "IUniswapV2Factory",
+        "IUniswapV2Pair",
+        "IUniswapV2Router01",
+        "IUniswapV2Router02",
+        "Ownable",
+        "SafeMath"
+      ]
+    }
+  }
+}
